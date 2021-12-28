@@ -1,0 +1,23 @@
+{
+  "name": "es6advjsfeatures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitya2508/ES6features.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitya2508/ES6features/issues"
+  },
+  "homepage": "https://github.com/nitya2508/ES6features#readme"
+ 
+    
+  
+}

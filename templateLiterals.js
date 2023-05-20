@@ -1,5 +1,7 @@
+// var Template_Literals;
+// // In ES6, we can use a new syntax ${PARAMETER} inside of the back-ticked string.
 var firstName = "Nitya";
 var lastName = "Shree";
 
-var name = `My name is ${firstName} ${lastName}.`
-console.log(name)
+console.log("Your name is" + firstName +"lastName")
+console.log(`Your name is  ${firstName} ${lastName}`)

@@ -2,7 +2,7 @@
  const person = {
     name: 'Sara',
     age: 25,
-    gender: 'female'    
+    gender: 'female',  
 }
 
 let { name, age, gender } = person;

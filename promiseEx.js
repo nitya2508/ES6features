@@ -1,6 +1,7 @@
-const count = true;
+let count = false
 
 let countValue = new Promise(function (resolve, reject) {
+    
     if (count) {
         resolve("There is a count value.");
     } else {
@@ -8,4 +9,10 @@ let countValue = new Promise(function (resolve, reject) {
     }
 });
 
-console.log(countValue);
+countValue
+.then((data)=>{
+    console.log(data);
+})
+.catch((err)=>{
+    console.log("eooro",err);
+})

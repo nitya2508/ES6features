@@ -1,5 +1,6 @@
 var calculateArea = function(height = 50, width = 80) {  
-   area=height * width;
+   let area= height * width;
+   
    return area;
 }
 

@@ -13,21 +13,25 @@ greet();
 //both regular and arrow func ex
 
 
-function Person() {
-    this.name = 'Jack',
-    this.age = 25,
-    this.sayName = function () {
+var Person= ()=>{
+  let name = 'Jack';
+   let age = 25;
+     var sayName =  ()=> {
 
-        console.log(this.age);
+        console.log(age);
         let innerFunc = () => {
-            console.log(this.name);
+            console.log(name);
+            return "name"
         }
 
         innerFunc();
     }
+    sayName();
 }
 
-const x = new Person();
+const x =  Person();
+console.log("......",x);
 x.sayName();
-// const y = x.sayName();
-// console.log(y)
+const y = x.sayName();
+
+console.log(y)

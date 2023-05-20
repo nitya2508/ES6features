@@ -7,8 +7,13 @@ function outer(){
     function inner(){
         let b= 10;
         console.log(a+b, a,b);
+       
+    }
+    {
+        var c=10
     }
 
+    console.log(c);
 }
 outer();
 console.log(a);
